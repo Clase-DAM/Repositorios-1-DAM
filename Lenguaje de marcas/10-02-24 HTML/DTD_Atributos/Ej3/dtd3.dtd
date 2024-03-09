@@ -1,0 +1,9 @@
+<!DOCTYPE cine [
+<!ELEMENT cine (peliculas, actores)>
+<!ELEMENT peliculas (peliculas*)>
+<!ELEMENT peliculas #REQUIRED>
+<!ATTLIST peliculas codpel ID #REQUIRED>
+<!ELEMENT actores (actor*)>
+<!ELEMENT actor #REQUIRED>
+<!ATTLIST actor filmografia #REQUIRED>
+]

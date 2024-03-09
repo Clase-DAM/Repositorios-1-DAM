@@ -1,0 +1,28 @@
+p{
+    color: #00f;
+    background-color: #cfc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px
+}
+h1{
+    color: #F00;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 32px;
+}
+h2{
+    color: #a00;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+}
+ul{
+    background-color: #060;
+}
+.iw{
+    font-size: 20px;
+    font-weight:bold;
+}
+.htcs{
+    color: #fff;
+    background-color: #000;
+    font-style: italic;
+}

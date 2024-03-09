@@ -1,0 +1,16 @@
+.bmo-animation {
+  width: 100%;
+  height: 100vh;
+  background-image: url('https://i.ytimg.com/vi/FLuAKJP2ekU/maxresdefault.jpg');
+  background-size: cover;
+  animation: bounce 2s infinite alternate;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}

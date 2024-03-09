@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE planeta [
+<!ELEMENT planeta (nombre_planeta, continentes)>
+<!ELEMENT nombre_planeta (#PCDATA)>
+<!ELEMENT continentes (continente*)>
+<!ELEMENT continente (nombre,tamano,num_habitantes,lengua_mayoritaria,partes)>
+<!ELEMENT nombre (#PCDATA)>
+<!ATTLIST nombre hemisferio (N|S) #REQUIRED>
+<!ATTLIST nombre mote ID #REQUIRED>
+<!ELEMENT tamano EMPTY>
+<!ELEMENT num_habitantes ANY>
+<!ATTLIST num_habitantes fuente CDATA #FIXED "segura">
+<!ATTLIST num_habitantes cantidad CDATA "muchos">
+<!ELEMENT lengua_mayoritaria (#PCDATA)>
+<!ELEMENT partes ANY>
+<!ATTLIST partes tiene_islas CDATA #IMPLIED>
+]>
+<planeta>
+    <nombre_planeta>Tierra</nombre_planeta>
+    <continentes>
+        <continente>
+            <nombre hemisferio="N" mote="EU">Europa</nombre>
+            <tamano/>
+            <num_habitantes fuente="segura" cantidad="13000"></num_habitantes>
+            <lengua_mayoritaria>Alemán</lengua_mayoritaria>
+            <partes tiene_islas="si">Europa Norte, Europa Este, Europa Oeste</partes>
+        </continente>
+
+        <continente>
+            <nombre hemisferio="N" mote="AS">Asia</nombre>
+            <tamano/>
+            <num_habitantes fuente="segura" cantidad="56000"></num_habitantes>
+            <lengua_mayoritaria>Chino</lengua_mayoritaria>
+            <partes tiene_islas="si"></partes>
+        </continente>
+        <continente>
+            <nombre hemisferio="S" mote="ANT">Antartida</nombre>
+            <tamano/>
+            <num_habitantes fuente="segura" cantidad="13"></num_habitantes>
+            <lengua_mayoritaria>Desconocida</lengua_mayoritaria>
+            <partes tiene_islas="Si">No hay</partes>
+        </continente>
+        <continente>
+            <nombre hemisferio="S" mote="OCE">Oceania</nombre>
+            <tamano/>
+            <num_habitantes fuente="segura" cantidad="155"></num_habitantes>
+            <lengua_mayoritaria>Ingles</lengua_mayoritaria>
+            <partes tiene_islas="Si"></partes>
+        </continente>
+    </continentes>
+</planeta>

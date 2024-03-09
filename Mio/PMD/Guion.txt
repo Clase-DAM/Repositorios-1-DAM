@@ -1,0 +1,7 @@
+1- Java Swing(util y aplicacion)
+2- Twilio Java
+3- HTML con estos
+4- Vinculacion de los anteriores ( Importa bastante )
+
+PLanificacion y estructuracion de la app/web
+ 

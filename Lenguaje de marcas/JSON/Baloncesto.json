@@ -1,0 +1,25 @@
+{
+    "equipo_baloncesto": {
+      "nombre_equipo": "Los cantantes",
+      "color_equipacion": "azul y blanco",
+      "nombre_estadio": "Estadio de la musica",
+      "nombre_entrenador": "Carlos Baute",
+      "plantilla_historica": false,
+      "pagina_web": "http://www.loscantantes.com",
+      "jugadores": {
+        "base": [
+          {"nombre": "David Bisbal", "dorsal": 5},
+          {"nombre": "Manolo García", "dorsal": 10}
+        ],
+        "alero": [
+          {"nombre": "Pedro Infante", "dorsal": 7},
+          {"nombre": "Ana mena", "dorsal": 13}
+        ],
+        "pivot": [
+          {"nombre": "María Becerra", "dorsal": 9},
+          {"nombre": "Javier Calamaro ", "dorsal": 15}
+        ]
+      }
+    }
+  }
+  

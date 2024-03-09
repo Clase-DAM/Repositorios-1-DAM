@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE personas [
+    <!ELEMENT personas (persona*)>
+    <!ELEMENT persona (nombre,nacimiento,direccio,varon)>
+    <!ELEMENT nombre (#PCDATA) >
+    <!ELEMENT nacimiento ANY>
+    <!ATTLIST nacimiento dia CDATA #REQUIRED>
+    <!ATTLIST nacimiento mes CDATA #REQUIRED>
+    <!ATTLIST nacimiento anyo CDATA #REQUIRED>
+    <!ELEMENT direccio (calle,poblacion,provincia,cpostal)>
+    <!ELEMENT calle (#PCDATA)>
+    <!ELEMENT poblacion (#PCDATA)>
+    <!ELEMENT provincia (#PCDATA)>
+    <!ELEMENT cpostal (#PCDATA)>
+    <!ELEMENT varon (#PCDATA)>
+]>
+<personas>
+    <persona>
+        <nombre>Pau Masià</nombre>
+        <nacimiento dia="19" mes="Octubre" anyo="2004"></nacimiento>
+        <direccio>
+            <calle>C/San Francisco</calle>
+            <poblacion>Moncofa</poblacion>
+            <provincia>Castellon</provincia>
+            <cpostal>12593</cpostal>
+        </direccio>
+        <varon>Si</varon>
+    </persona>
+    <persona>
+        <nombre>Maria Masià</nombre>
+        <nacimiento dia="30" mes="Enero" anyo="2004"></nacimiento>
+        <direccio>
+            <calle>C/Agüeros</calle>
+            <poblacion>Nules</poblacion>
+            <provincia>Castellon</provincia>
+            <cpostal>12520</cpostal>
+        </direccio>
+        <varon>No</varon>
+    </persona>
+</personas>

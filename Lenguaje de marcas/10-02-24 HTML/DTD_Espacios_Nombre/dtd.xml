@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca:libro xmlns:biblioteca="http://www.ejemplo-biblioteca.com"
+                   xmlns:editorial="http://www.ejemplo-editorial.com">
+<editorial:libro>
+    <editorial:nombre>Ivrea</editorial:nombre>
+</editorial:libro>
+
+  <biblioteca:libro>
+    <biblioteca:titulo>XML y Espacios de Nombres</biblioteca:titulo>
+    <biblioteca:autor>Juan Pérez</biblioteca:autor>
+    <biblioteca:fecha_publicacion>2022-05-15</biblioteca:fecha_publicacion>
+  </biblioteca:libro>
+
+ <editorial:libro>
+    <editorial:nombre>Planeta de Agostini</editorial:nombre>
+ </editorial:libro>
+ <biblioteca:libro>
+    <biblioteca:titulo>DTD y Validación XML</biblioteca:titulo>
+    <biblioteca:autor>Maria Gómez</biblioteca:autor>
+    <biblioteca:fecha_publicacion>2022-07-20</biblioteca:fecha_publicacion>
+  </biblioteca:libro>

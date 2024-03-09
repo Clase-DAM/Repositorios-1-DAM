@@ -1,0 +1,7 @@
+<!DOCTYPE lunas [
+<!ELEMENT lunas (luna)>
+<!ELEMENT luna #PCDATA>
+<!ATTLIST luna numero ID #REQUIRED>
+<!ATTLIST luna nombre ID #REQUIRED>
+<!ATTLIST luna planeta ANY>
+]
